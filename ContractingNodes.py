@@ -8,8 +8,6 @@ import numpy as np
 import pickle
 import time
 
-## Here inflations = 3 means 8 times inflated (files are wrongly marked - so we get file with 'VC_I=4' by putting inflation = 2 here, which means I should 6 not 4 - remember for future!!)
-
 st = time.time()
 
 T = geo.Tiling("eightemp",inflations=1)      #vertexconfig",8,inflations=1)
